@@ -1,0 +1,14 @@
+/* style.css */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Ocultar la scrollbar pero permitir scroll */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
