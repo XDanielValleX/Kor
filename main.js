@@ -68,17 +68,106 @@ const proyectosData = [
     {
         titulo: 'Casa Centro Histórico',
         descripcion: 'Ambientes coloniales, patios y detalles con carácter.',
-        imagenes: ['foto1.jpg', 'foto5.jpg', 'foto7.jpg', 'foto14.jpg', 'foto17.jpg']
+        imagenes: [
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782881895/Aimg14_kauomk.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782881897/Aimg4_cqw85r.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782881898/Aimg2_wxisj2.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782881898/Aimg3_fn4sug.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782882510/Aimg1_sg3az9.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782882511/Aimg6_klxnzx.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782882512/Aimg7_iyqm31.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782882513/Aimg8_zrjghf.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782882515/Aimg9_knkdl8.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782882517/Aimg10_ifuogh.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782882518/Aimg11_u6mjfn.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782882520/Aimg12_zjkgms.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782882522/Aimg13_yeqncm.jpg'
+        ]
     },
     {
         titulo: 'Airbnb',
         descripcion: 'Estancias pensadas para conversiones y reservas.',
-        imagenes: ['foto2.jpg', 'foto4.jpg', 'foto6.jpg', 'foto8.jpg', 'foto9.jpeg', 'foto10.jpg', 'foto13.jpg']
+        imagenes: [
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782882984/Bimg11_eohcoe.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782882984/Bimg1_ihr30d.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782882985/Bimg4_tqo1kx.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782882986/Bimg5_dgblhr.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782882988/Bimg6_i4zsok.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782882990/Bimg7_fch0mp.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782882991/Bimg8_gpojwl.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782882993/Bimg10_izfvke.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782882995/Bimg9_vuxm3l.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782882996/Bimg3_ontfdg.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782882998/Bimg2_brbovb.jpg'
+        ]
     },
     {
         titulo: 'Hotel Intercontinental',
         descripcion: 'Escenas amplias, elegantes y de alto impacto visual.',
-        imagenes: ['foto3.jpg', 'foto11.jpg', 'foto12.jpg', 'foto15.jpg', 'foto16.jpg', 'foto18.jpg', 'foto19.jpg', 'foto20.jpg']
+        imagenes: [
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883395/Cimg2_ndutlf.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883396/Cimg4_dmpupu.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883409/Cimg1_h5habh.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883410/Cimg6_pxlhok.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883413/Cimg7_yumv0w.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883415/Cimg8_mmfncm.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883416/Cimg9_hloyaw.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883419/Cimg10_t9cdvq.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883421/Cimg13_p1ic52.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883423/Cimg14_q1wwuk.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883425/Cimg5_unck8j.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883426/Cimg11_u6kmsh.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883428/Cimg12_fr8cua.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883431/Cimg3_tsa3ek.jpg'
+        ]
+    },
+    {
+        titulo: 'Apartamento en Zona Norte',
+        descripcion: 'Interiores luminosos con enfoque residencial moderno.',
+        imagenes: [
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782884352/Dimg8_cqd3ok.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782884353/Dimg9_vh7zza.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782884355/Dimg10_mbsw1i.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782884357/Dimg11_fbqisi.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782884360/Dimg12_rbyjah.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782884363/Dimg13_gqr9vh.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782884365/Dimg1_aiszex.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782884368/Dimg3_tvumok.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782884370/Dimg4_lbokqq.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782884373/Dimg6_wotn9r.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782884375/Dimg7_ovhf2q.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782884378/Dimg2_fk6psm.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782884380/Dimg5_s0wndx.jpg'
+        ]
+    },
+    {
+        titulo: 'Pent House',
+        descripcion: 'Vistas altas, acabados premium y sensación de lujo.',
+        imagenes: [
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883861/Eimg3_zv52nl.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883862/Eimg6_auhtuk.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883865/Eimg5_oh9lmc.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883867/Eimg7_rvxcvr.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883870/Eimg8_vfpzk3.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883872/Eimg9_bs0nas.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883874/Eimg10_c4py8b.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883876/Eimg11_uotxl9.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883878/Eimg2_b8rhvm.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883881/Eimg1_nygoik.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883882/Eimg4_pju87k.jpg'
+        ]
+    },
+    {
+        titulo: 'Lotes',
+        descripcion: 'Tomas amplias para terreno, proyección y desarrollo.',
+        imagenes: [
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883885/Fimg1_wudtfo.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883888/Fimg2_dfdihw.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883890/Fimg3_hz1kdg.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883892/Fimg4_rwktt9.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883895/Fimg6_w9dbkj.jpg',
+            'https://res.cloudinary.com/diedip2so/image/upload/v1782883897/Fimg5_wml2gm.jpg'
+        ]
     }
 ];
 
@@ -87,9 +176,9 @@ const proyectosContainer = document.getElementById('proyectos-container');
 if (proyectosContainer) {
     proyectosContainer.innerHTML = proyectosData.map((proyecto, index) => `
         <div class="group relative overflow-hidden h-[320px] md:h-[420px] rounded-[2rem] bg-neutral-900 shadow-[0_20px_60px_-20px_rgba(0,0,0,0.45)] isolate" data-project-card data-project-index="${index}" data-image-index="0">
-            <img src="assets/proyectos/${proyecto.imagenes[0]}" alt="${proyecto.titulo}"
+            <img src="${proyecto.imagenes[0]}" alt="${proyecto.titulo}"
                 data-project-image
-                class="absolute inset-0 w-full h-full object-cover transition duration-700 group-hover:scale-105">
+                class="absolute inset-0 w-full h-full object-cover transition-[opacity,transform] duration-700 ease-in-out opacity-100 scale-100 group-hover:scale-105 will-change-[opacity,transform]">
             <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/15 to-transparent"></div>
 
             <button type="button"
@@ -142,8 +231,17 @@ if (proyectosContainer) {
         const nextIndex = (currentIndex + direction + project.imagenes.length) % project.imagenes.length;
 
         card.dataset.imageIndex = String(nextIndex);
-        image.src = `assets/proyectos/${project.imagenes[nextIndex]}`;
-        image.alt = `${project.titulo} ${nextIndex + 1}`;
-        counter.textContent = `${nextIndex + 1}/${project.imagenes.length}`;
+
+        image.classList.add('opacity-0', 'scale-95');
+
+        window.setTimeout(() => {
+            image.src = project.imagenes[nextIndex];
+            image.alt = `${project.titulo} ${nextIndex + 1}`;
+            counter.textContent = `${nextIndex + 1}/${project.imagenes.length}`;
+
+            requestAnimationFrame(() => {
+                image.classList.remove('opacity-0', 'scale-95');
+            });
+        }, 220);
     });
 }
