@@ -21,23 +21,23 @@
 
     <header id="main-header"
         class="fixed inset-x-0 top-0 z-50 bg-transparent text-white py-4 px-4 md:px-8 flex justify-between items-center transition-colors duration-500">
-        <div class="text-2xl md:text-3xl logo-serif tracking-widest text-white">
+        <a href="#inicio" class="text-2xl md:text-3xl logo-serif tracking-widest text-white transition hover:text-gray-200">
             KOR
-        </div>
+        </a>
 
         <nav class="hidden md:flex space-x-8 text-sm uppercase tracking-wider font-semibold">
-            <a href="#" class="hover:text-gray-400 transition">Inicio</a>
-            <a href="#" class="hover:text-gray-400 transition">Nosotros</a>
-            <a href="#" class="hover:text-gray-400 transition">Portafolio</a>
-            <a href="#" class="hover:text-gray-400 transition">Servicios</a>
+            <a href="#inicio" class="hover:text-gray-400 transition">Inicio</a>
+            <a href="#nuestro-trabajo" class="hover:text-gray-400 transition">Nosotros</a>
+            <a href="#proyectos-destacados" class="hover:text-gray-400 transition">Portafolio</a>
+            <a href="#servicios" class="hover:text-gray-400 transition">Servicios</a>
         </nav>
-        <a href="#contacto"
+        <a href="contacto.html"
             class="bg-white text-black px-4 py-2 md:px-6 md:py-2 text-xs md:text-sm font-bold uppercase tracking-wide hover:bg-gray-200 transition">
             Contacto
         </a>
     </header>
 
-    <section class="relative h-screen flex items-center justify-center overflow-hidden bg-black">
+    <section id="inicio" class="relative h-screen flex items-center justify-center overflow-hidden bg-black scroll-mt-24 md:scroll-mt-28">
         <video autoplay loop muted playsinline
             class="absolute inset-0 w-full h-full object-cover z-0 pointer-events-none">
             <source src="https://res.cloudinary.com/diedip2so/video/upload/v1782705462/Hero_xfm4mr.mp4"
@@ -67,8 +67,8 @@
         </div>
     </section>
 
-    <section
-        class="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-20 flex flex-col md:flex-row items-center justify-between border-b border-gray-200">
+    <section id="nuestro-trabajo"
+        class="max-w-7xl mx-auto px-6 md:px-8 py-16 md:py-20 flex flex-col md:flex-row items-center justify-between border-b border-gray-200 scroll-mt-24 md:scroll-mt-28">
         <div class="flex flex-col items-center text-center mb-10 md:mb-0 md:mr-12">
             <div class="text-6xl md:text-7xl logo-serif text-black leading-none tracking-wide">KOR</div>
             <div class="text-2xl md:text-3xl logo-serif text-gray-800 mt-2">KOR Studio</div>
@@ -155,7 +155,7 @@
         </div>
     </section>
 
-    <section class="max-w-7xl mx-auto px-6 md:px-8 py-12">
+    <section id="proyectos-destacados" class="max-w-7xl mx-auto px-6 md:px-8 py-12 scroll-mt-24 md:scroll-mt-28">
         <div class="text-center mb-8">
             <h3 class="text-sm tracking-widest uppercase font-semibold text-gray-500">Proyectos Destacados</h3>
         </div>
@@ -165,7 +165,138 @@
         </div>
     </section>
 
-    <a href="https://wa.me/573015458951" target="_blank" rel="noopener noreferrer"
+    <section id="servicios" class="bg-[#0c0c0c] text-white py-20 md:py-28 border-t border-white/10 scroll-mt-24 md:scroll-mt-28">
+        <div class="max-w-7xl mx-auto px-6 md:px-8">
+            <div class="max-w-3xl">
+                <p class="text-[10px] md:text-xs tracking-[0.35em] uppercase text-white/45 font-semibold">Lo que ofrecemos</p>
+                <h2 class="mt-3 text-3xl md:text-5xl font-bold logo-serif leading-tight">
+                    Servicios pensados para mostrar tu propiedad con intención.
+                </h2>
+                <p class="mt-4 text-sm md:text-base text-white/70 leading-relaxed max-w-2xl">
+                    Diseñamos paquetes visuales que combinan fotografía, video y piezas para redes, manteniendo la
+                    estética cálida y editorial que define a KOR.
+                </p>
+            </div>
+
+            <div class="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+                <article class="rounded-[2rem] border border-white/15 bg-white/8 p-6 backdrop-blur-xl shadow-[0_20px_50px_-30px_rgba(0,0,0,0.8)] transition duration-300 hover:-translate-y-1 hover:border-white/55 hover:shadow-[0_0_40px_rgba(255,255,255,0.18)]">
+                    <p class="text-[10px] tracking-[0.3em] uppercase text-white/45">Paquete 01</p>
+                    <h3 class="mt-3 text-2xl font-semibold">Iniciador</h3>
+                    <p class="mt-3 text-sm text-white/70 leading-relaxed">Perfecto para listings nuevos que necesitan una presentación limpia, clara y profesional.</p>
+                    <ul class="mt-6 space-y-3 text-sm text-white/85">
+                        <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-[#d8b15d]"></span>Fotografía profesional de la MLS</li>
+                        <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-[#d8b15d]"></span>Entrega optimizada para web y portales</li>
+                        <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-[#d8b15d]"></span>Asesoría de encuadre y presentación</li>
+                    </ul>
+                    <div class="mt-8 pt-6 border-t border-white/10 flex items-end justify-between gap-4">
+                        <div>
+                            <p class="text-[10px] tracking-[0.3em] uppercase text-white/45">Desde</p>
+                            <p class="mt-2 text-3xl font-bold">$750</p>
+                        </div>
+                        <a href="contacto.html" class="text-sm font-semibold text-white/85 hover:text-white transition">Consultar →</a>
+                    </div>
+                </article>
+
+                <article class="rounded-[2rem] border border-white/15 bg-white/8 p-6 backdrop-blur-xl shadow-[0_20px_50px_-30px_rgba(0,0,0,0.8)] transition duration-300 hover:-translate-y-1 hover:border-white/55 hover:shadow-[0_0_40px_rgba(255,255,255,0.18)]">
+                    <p class="text-[10px] tracking-[0.3em] uppercase text-white/45">Paquete 02</p>
+                    <h3 class="mt-3 text-2xl font-semibold">Firma</h3>
+                    <p class="mt-3 text-sm text-white/70 leading-relaxed">La opción ideal para propiedades que necesitan profundidad, ritmo y contenido para vender mejor.</p>
+                    <ul class="mt-6 space-y-3 text-sm text-white/85">
+                        <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-[#d8b15d]"></span>Foto principal y detalle interior</li>
+                        <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-[#d8b15d]"></span>Video vertical para redes sociales</li>
+                        <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-[#d8b15d]"></span>Selección visual con estilo editorial</li>
+                    </ul>
+                    <div class="mt-8 pt-6 border-t border-white/10 flex items-end justify-between gap-4">
+                        <div>
+                            <p class="text-[10px] tracking-[0.3em] uppercase text-white/45">Desde</p>
+                            <p class="mt-2 text-3xl font-bold">$1.100</p>
+                        </div>
+                        <a href="contacto.html" class="text-sm font-semibold text-white/85 hover:text-white transition">Consultar →</a>
+                    </div>
+                </article>
+
+                <article class="rounded-[2rem] border border-white/20 bg-white/10 p-6 backdrop-blur-xl shadow-[0_20px_50px_-30px_rgba(0,0,0,0.8)] transition duration-300 hover:-translate-y-1 hover:border-white/60 hover:shadow-[0_0_48px_rgba(255,255,255,0.22)]">
+                    <p class="inline-flex rounded-full bg-white/20 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.3em] text-white">Más popular</p>
+                    <h3 class="mt-4 text-2xl font-semibold">Establo completo</h3>
+                    <p class="mt-3 text-sm text-white/75 leading-relaxed">El paquete más sólido para marcas y propiedades que quieren una pieza visual completa.</p>
+                    <ul class="mt-6 space-y-3 text-sm text-white/88">
+                        <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-[#d8b15d]"></span>Fotografía, video y clips para reels</li>
+                        <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-[#d8b15d]"></span>Recorrido visual de espacios clave</li>
+                        <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-[#d8b15d]"></span>Entrega pensada para publicación inmediata</li>
+                    </ul>
+                    <div class="mt-8 pt-6 border-t border-white/10 flex items-end justify-between gap-4">
+                        <div>
+                            <p class="text-[10px] tracking-[0.3em] uppercase text-white/45">Desde</p>
+                            <p class="mt-2 text-3xl font-bold">$1.425</p>
+                        </div>
+                        <a href="contacto.html" class="text-sm font-semibold text-white/85 hover:text-white transition">Consultar →</a>
+                    </div>
+                </article>
+
+                <article class="rounded-[2rem] border border-white/15 bg-white/8 p-6 backdrop-blur-xl shadow-[0_20px_50px_-30px_rgba(0,0,0,0.8)] transition duration-300 hover:-translate-y-1 hover:border-white/55 hover:shadow-[0_0_40px_rgba(255,255,255,0.18)]">
+                    <p class="text-[10px] tracking-[0.3em] uppercase text-white/45">Paquete 04</p>
+                    <h3 class="mt-3 text-2xl font-semibold">Personalizado</h3>
+                    <p class="mt-3 text-sm text-white/70 leading-relaxed">Creamos una propuesta a medida para proyectos que requieren un enfoque distinto y más estratégico.</p>
+                    <ul class="mt-6 space-y-3 text-sm text-white/85">
+                        <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-[#d8b15d]"></span>Diseño de paquete según la propiedad</li>
+                        <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-[#d8b15d]"></span>Fotografía + piezas para campaña</li>
+                        <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-[#d8b15d]"></span>Recomendación visual y de publicación</li>
+                    </ul>
+                    <div class="mt-8 pt-6 border-t border-white/10 flex items-end justify-between gap-4">
+                        <div>
+                            <p class="text-[10px] tracking-[0.3em] uppercase text-white/45">Cotización</p>
+                            <p class="mt-2 text-2xl font-bold uppercase tracking-wide">A medida</p>
+                        </div>
+                        <a href="contacto.html" class="text-sm font-semibold text-white/85 hover:text-white transition">Consultar →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black text-white border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-6 md:px-8 py-14 md:py-16 grid gap-10 lg:grid-cols-[1.2fr_0.8fr_0.8fr]">
+            <div>
+                <a href="#inicio" class="text-4xl md:text-5xl logo-serif tracking-widest inline-block">KOR</a>
+                <p class="mt-5 max-w-md text-sm md:text-base text-white/65 leading-relaxed">
+                    Producción visual para hoteles, Airbnb y propiedades en Cartagena. Creamos contenido elegante,
+                    cálido y enfocado en reservas.
+                </p>
+                <div class="mt-8 flex flex-wrap gap-4 text-xs md:text-sm uppercase tracking-[0.25em] text-white/55">
+                    <a href="#inicio" class="hover:text-white transition">Inicio</a>
+                    <a href="#nuestro-trabajo" class="hover:text-white transition">Nosotros</a>
+                    <a href="#proyectos-destacados" class="hover:text-white transition">Portafolio</a>
+                    <a href="#servicios" class="hover:text-white transition">Servicios</a>
+                </div>
+            </div>
+
+            <div>
+                <p class="text-[10px] tracking-[0.35em] uppercase text-white/40 font-semibold">Contacto</p>
+                <div class="mt-5 space-y-4 text-sm text-white/75">
+                    <a href="https://wa.me/57301545895" target="_blank" rel="noopener noreferrer" class="block hover:text-[#d8b15d] transition">WhatsApp: +57 301 545 895</a>
+                    <a href="mailto:korstudiocol@gmail.com" class="block hover:text-[#d8b15d] transition">korstudiocol@gmail.com</a>
+                    <p>Cartagena de Indias, Colombia</p>
+                </div>
+            </div>
+
+            <div>
+                <p class="text-[10px] tracking-[0.35em] uppercase text-white/40 font-semibold">Síguenos</p>
+                <div class="mt-5 space-y-3 text-sm text-white/75">
+                    <a href="https://www.instagram.com/korstudio.col/" target="_blank" rel="noopener noreferrer" class="block hover:text-[#d8b15d] transition">Instagram</a>
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="block hover:text-[#d8b15d] transition">Facebook</a>
+                    <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" class="block hover:text-[#d8b15d] transition">TikTok</a>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-white/10">
+            <div class="max-w-7xl mx-auto px-6 md:px-8 py-4 text-[11px] md:text-xs tracking-[0.25em] uppercase text-white/40 flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+                <p>© 2026 KOR Studio. Todos los derechos reservados.</p>
+                <p>Contenido visual y estrategia para propiedades.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/57301545895" target="_blank" rel="noopener noreferrer"
         class="fixed bottom-6 right-6 md:bottom-8 md:right-8 bg-[#25D366] text-white p-3 md:p-4 rounded-full shadow-2xl hover:bg-[#1ebd57] transition hover:-translate-y-1 z-50">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 md:w-8 md:h-8" fill="currentColor" viewBox="0 0 16 16">
             <path
