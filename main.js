@@ -37,19 +37,21 @@ window.addEventListener('scroll', () => {
     let progress = scrolled / scrollableDistance;
     progress = Math.max(0, Math.min(1, progress));
 
-    let newIndex = 0;
-    if (progress < 0.33) {
-        newIndex = 0;
-    } else if (progress < 0.66) {
-        newIndex = 1;
-    } else {
-        newIndex = 2;
+    // Map progress into one of the video indices (0..videos.length-1)
+    const segments = videos.length;
+    let newIndex = Math.min(segments - 1, Math.floor(progress * segments));
+
+    // Prevent skipping more than one index per scroll event (avoid jumping past the middle)
+    if (currentIndex !== -1) {
+        const maxDelta = 1;
+        if (newIndex > currentIndex + maxDelta) newIndex = currentIndex + maxDelta;
+        if (newIndex < currentIndex - maxDelta) newIndex = currentIndex - maxDelta;
     }
 
     if (newIndex !== currentIndex) {
         currentIndex = newIndex;
 
-        const translateY = -(currentIndex * (100 / 3));
+        const translateY = -(currentIndex * (100 / segments));
         videoTrack.style.transform = `translateY(${translateY}%)`;
 
         videos.forEach((video, i) => {
